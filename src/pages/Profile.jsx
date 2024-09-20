@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar'
 const Profile = () => {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <div className='h-screen w-screen bg-slate-90 flex  flex-col'>
 
       <div className='h-[80%] w-screen flex justify-center items-center'>
@@ -13,7 +13,7 @@ const Profile = () => {
                 <div className=' w-[80%] h-[10%] my-5 text-black text-3xl font-serif '>HELLO!! I'M RASHWANTH</div>
                 <div className='  w-[80%] h-[20%] text-1xl'>I’m a Computer Science student passionate about software engineering, specializing in Flutter and machine learning. I enjoy building practical, user-focused applications and have experience in Java and Python. My projects reflect innovation, data integration, and real-world impact.</div>
             </div>
-            <div className='h-screen w-screen flex justify-center items-center'>
+            <div className='h-full w-full flex justify-center items-center'>
                 <div className='h-[40%] w-[40%] border-2 border-black rounded-full'></div>
             </div>
       </div>
