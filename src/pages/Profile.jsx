@@ -1,6 +1,7 @@
 import { Github, Linkedin, LinkedinIcon, LucideLinkedin, Mail, Phone } from 'lucide-react'
 import React from 'react'
-import Navbar from '../Components/Navbar'
+// import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
 
 const Profile = () => {
   return (
@@ -17,12 +18,15 @@ const Profile = () => {
                 <div className='h-[50%] w-[50%] border-2 border-black rounded-full'></div>
             </div>
       </div>
-        <div className='h-screen w-screen  flex justify-center items-center gap-7'>
-          <div><a href="mailto:rashwanth90474@gmail.com"><Mail className='text-black h-10 w-10 hover:animate-spin' /></a></div>
-          <div><a href="https://www.linkedin.com/in/rashwanth-m-903115240/"><Linkedin className='text-black h-10 w-10 hover:animate-spin'/></a></div>
-          <div><a href="https://github.com/rashwanth17"><Github className='text-black h-10 w-10 hover:animate-spin'/></a></div>
-          <div><a href="tel:+91000"><Phone className='text-black h-10 w-10 hover:animate-spin'/></a></div>
+      {/* <footer className='h-full'>
+        <div className='h-full w-screen  flex justify-center items-center gap-7 bg-black'>
+          <div><a href="mailto:rashwanth90474@gmail.com"><Mail className='text-white h-10 w-10 hover:animate-spin' /></a></div>
+          <div><a href="https://www.linkedin.com/in/rashwanth-m-903115240/"><Linkedin className='text-white h-10 w-10 hover:animate-spin'/></a></div>
+          <div><a href="https://github.com/rashwanth17"><Github className='text-white h-10 w-10 hover:animate-spin'/></a></div>
+          <div><a href="tel:+91000"><Phone className='text-white h-10 w-10 hover:animate-spin'/></a></div>
         </div>
+        </footer> */}
+        <Footer/>
     </div> 
     </>
   )
