@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Navbar from "../components/Navbar"
+import { Github, Linkedin, LinkedinIcon, LucideLinkedin, Mail, Phone } from 'lucide-react'
 
 const Contact = () => {
 
@@ -25,8 +26,14 @@ const Contact = () => {
   return (
     <>
  
-      <div className="h-[80vh] w-screen flex justify-center items-center -z-10">
-        <button  className="bg-red-500 p-3 text-white w-32 rounded-sm"> Delete </button>
+      <div className="h-full w-full flex justify-center items-center -z-10">
+        
+      <div className='h-screen w-screen  flex justify-center items-center gap-7'>
+          <div><a href="mailto:rashwanth90474@gmail.com"><Mail className='text-black h-10 w-10 hover:animate-spin' /></a></div>
+          <div><a href="https://www.linkedin.com/in/rashwanth-m-903115240/"><Linkedin className='text-black h-10 w-10 hover:animate-spin'/></a></div>
+          <div><a href="https://github.com/rashwanth17"><Github className='text-black h-10 w-10 hover:animate-spin'/></a></div>
+          <div><a href="tel:+91000"><Phone className='text-black h-10 w-10 hover:animate-spin'/></a></div>
+        </div>
       </div>
     </>
   )
