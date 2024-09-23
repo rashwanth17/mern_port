@@ -1,6 +1,7 @@
 import { User } from 'lucide-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
+// import { tablet-smartphone } from 'lucide-react'
 
 
 const Navbar = () => {
@@ -14,6 +15,7 @@ const Navbar = () => {
       <Link to="/project" className='bg-indigo-700 border-2 rounded-md w-20 h-[100%] border-indigo-700 text-white flex justify-center items-center hover:animate-pulse'>Project</Link>
       <Link to="/contact" className='bg-indigo-700 border-2 rounded-md w-20 h-[100%] border-indigo-700 text-white flex justify-center items-center hover:animate-pulse'>Contact</Link>
       <Link className='w-20 h-[100%]  text-white flex justify-center items-center hover:animate-pulse'><User /></Link>
+      {/* <TabletSmartphone /> */}
       </div>
     </div>
   )

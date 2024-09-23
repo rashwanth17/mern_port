@@ -1,5 +1,7 @@
 import React from 'react'
-import { Github, Linkedin, LinkedinIcon, LucideLinkedin, Mail, Phone } from 'lucide-react'
+import { Github, Linkedin, LinkedinIcon, LucideLinkedin, Mail, Phone  } from 'lucide-react'
+import { TabletSmartphone } from 'lucide-react';
+
 
 const Footer = () => {
   return (
@@ -9,6 +11,8 @@ const Footer = () => {
           <div><a href="https://www.linkedin.com/in/rashwanth-m-903115240/"><Linkedin className='text-white h-10 w-10 hover:animate-spin'/></a></div>
           <div><a href="https://github.com/rashwanth17"><Github className='text-white h-10 w-10 hover:animate-spin'/></a></div>
           <div><a href="tel:+91000"><Phone className='text-white h-10 w-10 hover:animate-spin'/></a></div>
+          <div><a href="tel:+91000"><TabletSmartphone className='text-white h-10 w-10 hover:animate-spin'/></a></div>
+          {/* <TabletSmartphone /> */}
         </div>
         </footer>
   )

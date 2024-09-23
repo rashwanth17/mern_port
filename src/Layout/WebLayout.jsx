@@ -1,5 +1,5 @@
 import React from 'react'
-// import Navbar from '../Components/Navbar'
+import Navbar from '../Components/Navbar'
 import { Outlet } from 'react-router-dom'
 import Footer from '../Components/Footer'
 
@@ -19,6 +19,8 @@ const WebLayout = () => {
 // git add .
 // git commit -m ""
 // git push
+
+
 
 
 export default WebLayout
