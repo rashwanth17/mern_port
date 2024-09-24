@@ -60,6 +60,7 @@
 import React from 'react';
 import { TabletSmartphone } from 'lucide-react';
 import Footer from '../Components/Footer';
+import { Github, Linkedin, LinkedinIcon, LucideLinkedin, Mail, Phone  } from 'lucide-react'
 
 const projectData = [
   {
@@ -97,12 +98,23 @@ const projectData = [
     title: '',
     description: '',
   },
+  {
+    id: 6,
+    title: '',
+    description: '',
+  },
+  {
+    id: 6,
+    title: '',
+    description: '',
+  },
 ];
 
 const Project = () => {
   return (
-    // <div></div>,
-    <div className='flex w-full h-full mt-12 pb-5 ml-20 gap-5 overflow-x-scroll flex-wrap'>
+    // <div className='flex flex-col overflow-y-scroll flex-wrap'>
+    <div className='flex w-full h-[100%] overflow-y-auto flex-wrap '>
+      <div className='flex w-full h-[90%] mt-10  gap-5 flex-wrap justify-center items-center'>
       {projectData.map((project) => (
         <div
           key={project.id}
@@ -114,7 +126,18 @@ const Project = () => {
           <p className="text-gray-400 text-sm">{project.description}</p>
         </div>
       ))}
+     <footer className='h-[20%] w-full flex justify-center mb-4 items-center '>
+     <div className='h-full w-full  flex justify-center items-center gap-12 bg-black'>
+       <div><a href="mailto:rashwanth90474@gmail.com"><Mail className='text-white h-10 w-10 hover:animate-spin' /></a></div>
+       <div><a href="https://www.linkedin.com/in/rashwanth-m-903115240/"><Linkedin className='text-white h-10 w-10 hover:animate-spin'/></a></div>
+       <div><a href="https://github.com/rashwanth17"><Github className='text-white h-10 w-10 hover:animate-spin'/></a></div>
+       <div><a href="tel:+91000"><Phone className='text-white h-10 w-10 hover:animate-spin'/></a></div>
+       
+     </div>
+     </footer>
     </div>
+    </div>
+    // </div>
   );
 };
 
