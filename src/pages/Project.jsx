@@ -126,7 +126,7 @@ const Project = () => {
           <p className="text-gray-400 text-sm">{project.description}</p>
         </div>
       ))}
-     <footer className='h-[20%] w-full flex justify-center mb-4 items-center '>
+     <footer className='h-[25%] w-full flex justify-center mb-4 items-center '>
      <div className='h-full w-full  flex justify-center items-center gap-12 bg-black'>
        <div><a href="mailto:rashwanth90474@gmail.com"><Mail className='text-white h-10 w-10 hover:animate-spin' /></a></div>
        <div><a href="https://www.linkedin.com/in/rashwanth-m-903115240/"><Linkedin className='text-white h-10 w-10 hover:animate-spin'/></a></div>
