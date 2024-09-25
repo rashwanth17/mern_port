@@ -4,25 +4,6 @@ import { Github, Linkedin, LinkedinIcon, LucideLinkedin, Mail, Phone } from 'luc
 
 const Contact = () => {
 
-
-  const [nulldata, setNullData] = useState(null)
-  const [numberdata, setNumberData] = useState(0)
-  const [stringdata, setStringData] = useState("a")
-  const [booleandata, setBooleanData] = useState(true)
-  const [arraydata, setArrayData] = useState([])
-  const [objdata, setObjData] = useState({
-    name: "",
-    age: 0,
-    isalive: false
-  })
-
-
-  if (!nulldata) {
-    setNullData("Nulldata")
-  }
-  console.log(nulldata)
-  //    
-  const [visible, setvisible] = useState(false)
   return (
     <>
     <div className="bg-black h-full overflow-y-hidden">

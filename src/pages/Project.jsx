@@ -55,6 +55,7 @@ const Project = () => {
   return (
     // <div className='flex flex-col overflow-y-scroll flex-wrap'>
     <div className='flex w-full h-[100%] overflow-y-auto flex-wrap '>
+      <p className='text-5xl m-4 flex justify-center items-center w-full font-semibold'>MY PROJECTS</p>
       <div className='flex w-full h-[90%] mt-10  gap-5 flex-wrap justify-center items-center'>
       {projectData.map((project) => (
         <div
